@@ -1,0 +1,63 @@
+.profile-side-bar-profile-div {
+  border: none;
+  border-bottom-style: solid;
+  padding-bottom: 25px;
+  border-color: #7e858e;
+  border-width: 2px;
+}
+
+@media screen and (width<=767px) {
+  .profile-side-bar-profile-div {
+    width: 100%;
+  }
+}
+
+.types-of-employment-div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: none;
+  border-bottom-style: solid;
+  padding-bottom: 25px;
+  border-color: #7e858e;
+  border-width: 2px;
+}
+
+.types-of-employment-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f1f5f9;
+  font-weight: 500;
+  padding-bottom: 0px;
+}
+
+.employment-list {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.employment-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f1f5f9;
+  padding-left: 7px;
+  margin-top: 3px;
+}
+
+.salary-range-div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
